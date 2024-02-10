@@ -1,0 +1,66 @@
+/* here we will be styling our index.html */
+
+* {/* here we are styling the whole html element*/
+    box-sizing: border-box;
+}/*here we are styling the body elemnet*/
+body{
+    background-color: #131720;
+    font-family: sans-serif;
+
+}
+h3{
+    color: white;
+}
+.topnav{/*here we are styling the topnav class*/
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+}
+.topnav a{/*here we are styling the a element of the topnav class*/
+    float: left;
+    display:block;
+    color:white;
+    text-align: center;
+    padding:14px,16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.topnav .search-container{/*here we are styling the search container class
+    of the topnav class*/
+    float:right
+}
+form{
+    background-color: #151130;
+    width:300px;
+    height:43px;
+    border-radius:11px;
+    display:flex;
+    align-items: center;
+}
+input{
+    all:unset;
+    font:15px system-ui;
+    color:white;
+    height:100%;
+    width:100%;
+    padding:6px,9px
+
+}
+.thumbnail{
+    height:350px;
+    width:350px;
+    border-radius: 10px;
+}
+.column{
+    float:left;
+    width:25%;
+    padding:10px,10px
+
+}
+.card{
+    border-radius: 19px;
+    padding:15px;
+    text-align:center;
+    background-color: #151130;
+}
